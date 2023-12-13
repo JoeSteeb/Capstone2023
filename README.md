@@ -1,7 +1,7 @@
 # CEREO Visualization Tool
 
 An example graph to get some idea of what the web application might look like using  the D3js library.
-![Initial outline of the web app](https://github.com/WSUCapstoneS2023/CPTS_421_16_CEREO-VisualizationTool/blob/main/VisualizationTool.png)
+![Initial outline of the web app]()
 
 Welcome to the CEREO Visualization Tool repository! This tool is designed to help you visualize the affiliations and research interests of CEREO researchers. It provides an efficient way to view and search for researcher specialties within the CEREO community.
 
