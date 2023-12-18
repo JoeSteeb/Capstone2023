@@ -1,0 +1,40 @@
+.categoriesBar {
+  /* background-color: red; */
+  position: fixed;
+  top: 10px;
+  left: auto;
+  margin-left: 250px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 20px 10px 20px;
+}
+
+.categoryButton {
+  margin: 0 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: transform 0.3s;
+  color: black;
+  font-size: 20px;
+}
+
+.categoryButton:hover {
+  transform: scale(1.1);
+}
+
+.categoryButton img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+/* Additional style to ensure each div with button and modal is stacked vertically */
+.categoriesBar > div {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
